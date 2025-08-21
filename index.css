@@ -438,3 +438,60 @@ header .header-register:hover {
 .company-card:hover {
   box-shadow: 0 6px 24px rgba(168, 255, 53, 0.18);
 }
+
+/* PLATFORMS */
+
+.Platforms {
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+
+.Platforms h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 76px;
+  text-align: center;
+}
+
+.Platforms .messangers {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 32px 32px;
+  justify-items: center;
+  align-items: center;
+  margin: 48px auto 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  padding-bottom: 75px;
+}
+
+.Platforms .messangers .messangers-card {
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+  transition: box-shadow 0.2s;
+}
+
+.Platforms .messangers .messangers-card:hover {
+  box-shadow: 0 6px 24px rgba(168, 255, 53, 0.18);
+}
+
+.Platforms .Examples {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.Platforms .Examples img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
