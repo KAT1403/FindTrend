@@ -810,3 +810,471 @@ header .header-register:hover {
 .Footer__right a:hover {
   color: #a8ff35;
 }
+
+/* --- ADAPTIVE STYLES --- */
+
+/* 768px и меньше (планшеты) */
+@media (max-width: 769px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 16px 12px;
+    gap: 18px;
+  }
+  header .header-nav {
+    gap: 18px;
+    font-size: 16px;
+  }
+  header .header-actions {
+    gap: 12px;
+  }
+  .welcome .starter h1 {
+    font-size: 38px;
+  }
+  .welcome .starter p {
+    font-size: 16px;
+    max-width: 95vw;
+  }
+  .BottomButtons {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .solution h2 {
+    font-size: 38px;
+    line-height: 1.1;
+  }
+  .solution-arrows {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .solution .solutionButtonContainer {
+    width: 95vw;
+    height: 120px;
+    min-width: unset;
+  }
+  .Startup h2 {
+    font-size: 32px;
+    padding-top: 60px;
+    line-height: 1.2;
+  }
+  .LadderText {
+    font-size: 28px;
+    max-width: 95vw;
+    padding-top: 10px;
+  }
+  .StartupCompanies {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px 12px;
+    max-width: 95vw;
+    padding-bottom: 40px;
+  }
+  .company-card {
+    width: 140px;
+    height: 70px;
+  }
+  .company-card img {
+    max-width: 90px;
+    max-height: 36px;
+  }
+  .Platforms {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .Platforms h2 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .Platforms .messangers {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px 8px;
+    max-width: 95vw;
+    padding-bottom: 30px;
+  }
+  .Platforms .messangers .messangers-card {
+    width: 60px;
+    height: 60px;
+  }
+  .Deal h2 {
+    font-size: 28px;
+    line-height: 1.2;
+    padding-top: 40px;
+    margin-bottom: 30px;
+  }
+  .DealBlockContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    max-width: 95vw;
+  }
+  .DealBlock {
+    width: 95vw;
+    min-width: 0;
+    max-width: 340px;
+    height: auto;
+    min-height: 0;
+    padding: 24px 10px 24px 10px;
+  }
+  .Contact {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .Contact span {
+    font-size: 32px;
+    padding-top: 40px;
+  }
+  .Contact .ContactBold {
+    padding-top: 40px;
+  }
+  .Contact button {
+    padding: 16px 32px;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  .Footer__container {
+    flex-direction: column;
+    height: auto;
+    gap: 18px;
+    padding: 16px 10px;
+  }
+  .Footer__right ul {
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* 425px и меньше (мобильные большие) */
+@media (max-width: 426px) {
+  header {
+    flex-direction: column;
+    padding: 10px 4vw;
+    gap: 10px;
+  }
+  header .header-logo img {
+    width: 32px;
+    height: 32px;
+  }
+  header .header-logo span {
+    font-size: 18px;
+  }
+  header .header-nav {
+    gap: 10px;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+  .welcome .starter h1 {
+    font-size: 24px;
+  }
+  .welcome .starter p {
+    font-size: 13px;
+    max-width: 98vw;
+  }
+  .welcome .starter .getStartBtn {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+  .BottomButtons button {
+    font-size: 14px;
+    min-width: 120px;
+    padding: 10px 10px 8px 8px;
+  }
+  .solution h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .solution .solutionButtonContainer {
+    width: 98vw;
+    height: 70px;
+    min-width: unset;
+  }
+  .arrow-svg {
+    width: 32px;
+    height: 22px;
+  }
+  .arrow-text {
+    font-size: 11px;
+  }
+  .solutionDescription {
+    font-size: 13px;
+    padding-top: 16px;
+  }
+  .Startup h2 {
+    font-size: 18px;
+    padding-top: 30px;
+    line-height: 1.2;
+  }
+  .LadderText {
+    font-size: 14px;
+    max-width: 98vw;
+    padding-top: 5px;
+  }
+  .StartupCompanies {
+    grid-template-columns: 1fr;
+    gap: 10px 0;
+    max-width: 98vw;
+    padding-bottom: 20px;
+  }
+  .company-card {
+    width: 98vw;
+    max-width: 180px;
+    height: 50px;
+  }
+  .company-card img {
+    max-width: 60px;
+    max-height: 24px;
+  }
+  .Platforms {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .Platforms h2 {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .Platforms .messangers {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 4px;
+    max-width: 98vw;
+    padding-bottom: 10px;
+  }
+  .Platforms .messangers .messangers-card {
+    width: 36px;
+    height: 36px;
+  }
+  .Platforms .Examples img {
+    max-width: 90vw;
+  }
+  .Platforms button {
+    font-size: 14px;
+    padding: 10px 18px;
+    margin-top: 30px;
+  }
+  .Deal h2 {
+    font-size: 16px;
+    line-height: 1.2;
+    padding-top: 20px;
+    margin-bottom: 16px;
+  }
+  .DealBlockContainer {
+    gap: 12px;
+    max-width: 98vw;
+  }
+  .DealBlock {
+    width: 98vw;
+    max-width: 180px;
+    padding: 12px 4px 12px 4px;
+  }
+  .DealBlock h4 {
+    font-size: 18px;
+  }
+  .DealBlock .deal-subtitle {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  .DealPrice .price {
+    font-size: 22px;
+  }
+  .DealPrice .per-month {
+    font-size: 12px;
+  }
+  .DealFeatures li {
+    font-size: 11px;
+    margin-bottom: 6px;
+    padding-left: 18px;
+  }
+  .DealFeatures li::before {
+    font-size: 12px;
+    left: 0;
+    top: 0;
+  }
+  .DealButton {
+    font-size: 13px;
+    padding: 10px 0;
+    max-width: 120px;
+  }
+  .Contact {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .Contact span {
+    font-size: 18px;
+    padding-top: 18px;
+  }
+  .Contact .ContactBold {
+    padding-top: 18px;
+  }
+  .Contact button {
+    padding: 10px 18px;
+    font-size: 13px;
+    margin-top: 18px;
+  }
+  .Footer__container {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    padding: 10px 4px;
+  }
+  .Footer__left img {
+    width: 24px;
+    height: 24px;
+  }
+  .Footer__left span {
+    font-size: 13px;
+    margin-left: 4px;
+  }
+  .Footer__right ul {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Footer__right li {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 321px) {
+  .welcome .starter h1,
+  .solution h2,
+  .Platforms h2,
+  .Deal h2,
+  .Contact span {
+    font-size: 12px !important;
+  }
+  .Startup h2 {
+    font-size: 18px !important;
+    padding-top: 12px;
+    line-height: 1.2;
+  }
+  .LadderText {
+    font-size: 11px !important;
+    max-width: 98vw;
+    padding-top: 2px;
+    margin: 12px auto 8px auto;
+  }
+  .StartupCompanies {
+    grid-template-columns: 1fr;
+    gap: 8px 0;
+    max-width: 98vw;
+    padding-bottom: 10px;
+  }
+  .company-card {
+    width: 98vw;
+    max-width: 180px;
+    height: 38px;
+    min-width: 0;
+    padding: 2px 1px 2px 1px;
+    box-sizing: border-box;
+    flex-shrink: 1;
+  }
+  .company-card img {
+    max-width: 60px;
+    max-height: 18px;
+  }
+  .Platforms {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .Platforms h2 {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .Platforms .messangers {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 4px;
+    max-width: 98vw;
+    padding-bottom: 10px;
+  }
+  .Platforms .messangers .messangers-card {
+    width: 28px;
+    height: 28px;
+  }
+  .Platforms .Examples img {
+    max-width: 90vw;
+  }
+  .Platforms button {
+    font-size: 14px;
+    padding: 10px 18px;
+    margin-top: 30px;
+  }
+  .Deal h2 {
+    font-size: 16px;
+    line-height: 1.2;
+    padding-top: 20px;
+    margin-bottom: 16px;
+  }
+  .DealBlockContainer {
+    gap: 12px;
+    max-width: 98vw;
+  }
+  .DealBlock {
+    width: 98vw;
+    max-width: 180px;
+    padding: 12px 4px 12px 4px;
+  }
+  .DealBlock h4 {
+    font-size: 18px;
+  }
+  .DealBlock .deal-subtitle {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  .DealPrice .price {
+    font-size: 22px;
+  }
+  .DealPrice .per-month {
+    font-size: 12px;
+  }
+  .DealFeatures li {
+    font-size: 11px;
+    margin-bottom: 6px;
+    padding-left: 18px;
+  }
+  .DealFeatures li::before {
+    font-size: 12px;
+    left: 0;
+    top: 0;
+  }
+  .DealButton {
+    font-size: 13px;
+    padding: 10px 0;
+    max-width: 120px;
+  }
+  .Contact {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .Contact span {
+    font-size: 18px;
+    padding-top: 18px;
+  }
+  .Contact .ContactBold {
+    padding-top: 18px;
+  }
+  .Contact button {
+    padding: 10px 18px;
+    font-size: 13px;
+    margin-top: 18px;
+  }
+  .Footer__container {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    padding: 10px 4px;
+  }
+  .Footer__left img {
+    width: 24px;
+    height: 24px;
+  }
+  .Footer__left span {
+    font-size: 13px;
+    margin-left: 4px;
+  }
+  .Footer__right ul {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Footer__right li {
+    font-size: 11px;
+  }
+}
