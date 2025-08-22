@@ -509,13 +509,21 @@ header .header-register:hover {
   font-weight: 700;
   margin: 0 auto;
   margin-top: 65px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.Platforms button:hover {
+  background: #222222;
+  color: #a8ff35;
+  transition: background 0.2s, color 0.2s;
 }
 
 /* DEAL */
 
 .Deal {
   background: #000000;
-  color: #ffffff; 
+  color: #ffffff;
   padding-bottom: 125px;
 }
 
@@ -682,5 +690,123 @@ header .header-register:hover {
 
 .DealBlock--green .DealButton--black:hover {
   background: #222;
+  color: #a8ff35;
+}
+
+/* CONTACT BLOCK */
+
+.Contact {
+  background: #a8ff35;
+  height: 539px;
+  width: 100%;
+}
+
+.Contact span {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 112%;
+  text-align: center;
+  display: block;
+}
+
+.Contact .ContactBold {
+  padding-top: 140px;
+  color: #000000;
+}
+
+.Contact .ContactLight {
+  color: #87d322;
+}
+
+.Contact button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 80px;
+  gap: 10px;
+  background: #000000;
+  border-radius: 40px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+.Contact button:hover {
+  background: #222222;
+  color: #a8ff35;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* FOOTER */
+
+.Footer {
+  background: #fff;
+  border-top: 2px solid #ededed;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  width: 100%;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.Footer__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 48px;
+  height: 64px;
+}
+
+.Footer__left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.Footer__left img {
+  width: 40px;
+  height: 40px;
+}
+
+.Footer__left span {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+  margin-left: 8px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Footer__right ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Footer__right li {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.Footer__right a {
+  color: #111;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Footer__right a:hover {
   color: #a8ff35;
 }
